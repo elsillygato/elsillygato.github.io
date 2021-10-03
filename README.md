@@ -1,5 +1,10 @@
-## Heya, (please don't look at this uwu)
+# Heya, (please don't look at this uwu)
 
-- :robot: Working on a discord bot lmao
-- :snake: Knowledgable in Python
-- 😹 Scratch "mods" suck lmao
+## Things I'm working on:
+* :robot: Pupper-bot lmao
+  * [ ] welcome command
+## About Me
+* :snake: Knowledgable in Python
+* ©️ Kinda sucks at C++
+
+😹 Scratch "mods" suck lmao
