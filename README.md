@@ -1,8 +1,8 @@
-# Heya, (please don't look at this uwu)
+# Heya
 
 ## Things I'm working on:
-* :robot: Pupper-bot lmao
-  * [ ] welcome command
+* Bullet Dodging Game
+     * [ ] Rocket Bullets
 ## About Me
 * :snake: Knowledgable in Python
 * ©️ Kinda sucks at C++
