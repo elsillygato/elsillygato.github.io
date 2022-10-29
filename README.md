@@ -1,3 +1,4 @@
+![banner](https://i.imgur.com/GRWLDBt.png)
 # Heya
 
 ## Things I'm working on:
