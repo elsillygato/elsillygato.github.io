@@ -2,7 +2,7 @@ $light-yellow: #F7F39A;
 $black: #212125;
 $green: #239D60;
 @font-face {
-    font-family: VCR-OSD-Mono;
+    font-family: VCR OSD Mono;
     src: url(VCR_OSD_MONO_1.001.ttf);
 }
 
@@ -11,6 +11,15 @@ $green: #239D60;
     src: url(MojiponDisplay-Regular.ttf);
 }
 
+@font-face {
+    font-family: Old London;
+    src: url(OldLondon.ttf);
+}
+
+@font-face {
+    font-family: Dinopia;
+    src: url(DinopiaRegular-mLrO9.otf);
+}
 body {
     background-color: $light-yellow;
     h1 {
@@ -21,7 +30,7 @@ body {
     }
     p {
         color:$black;
-        font-family:VCR-OSD-Mono;
+        font-family:VCR OSD Mono;
         text-align: center;
         font-size: 32px;
     }
@@ -36,6 +45,7 @@ body {
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
+    font-size:24px;
     cursor: pointer;
     img {
         width:128px;
@@ -43,7 +53,9 @@ body {
 }
 .button1 {
     background-color: black;
+    font-family:Dinopia;
 }
 .button2 {
     background-color:#a3855b;
+    font-family:Old London;
 }
