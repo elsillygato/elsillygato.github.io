@@ -14,24 +14,66 @@
   font-family: Dinopia;
   src: url(DinopiaRegular-mLrO9.otf);
 }
-body {
-  background-color: #F7F39A;
+@font-face {
+  font-family: Ginto Nord;
+  src: url(ABCGintoNord-Bold-Trial-BF651b7b7670e10.otf);
 }
+@font-face {
+  font-family: Pico;
+  src: url(PICOBLA_.TTF);
+}
+@font-face {
+  font-family: Youtube Sans;
+  src: url(youtube-sans-bold.ttf);
+}
+@font-face {
+  font-family: Ft Vortex;
+  src: url(FtVortex-G3ZDy.otf);
+}
+nav {
+  border: black 5px solid;
+  background-color: white;
+  padding: 8px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 5px;
+  border-right: 2px #191923 solid;
+  padding-right: 10px;
+}
+nav ul li:last-child {
+  border-right: none;
+}
+
+html {
+  background: #C3E8BD;
+  background-image: linear-gradient(to bottom, #C3E8BD, #5B7553);
+  height: 100%;
+}
+
 body h1 {
-  color: #212125;
+  color: #191923;
   font-family: Mojipon;
   text-align: center;
   font-size: 64px;
 }
 body p {
-  color: #212125;
+  color: #191923;
   font-family: VCR OSD Mono;
   text-align: center;
   font-size: 32px;
 }
 
+#container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
 .button {
-  background-color: #239D60;
+  background-color: #9DDBAD;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -40,17 +82,21 @@ body p {
   display: inline-block;
   margin: 4px 2px;
   font-size: 24px;
+  max-width: 256px;
   cursor: pointer;
 }
-.button div img {
-  width: 128px;
+.button img {
+  min-width: 32px;
+  max-width: 128px;
+  display: block;
+  margin: auto;
 }
 
 .button1 {
   background-color: #000055;
-  font-family: Dinopia;
+  font-family: Ft Vortex;
 }
-.button1 div img {
+.button1 img {
   filter: invert(100);
 }
 
@@ -62,4 +108,34 @@ body p {
 .button3 {
   background-color: #7a450f;
   font-family: Dinopia;
+}
+
+#discord {
+  background-color: #5865F2;
+  font-family: Ginto Nord;
+  padding: 15px 5%;
+}
+
+#twitter {
+  background-color: #1DA1F2;
+  font-family: Pico;
+  padding: 15px 5%;
+}
+
+#youtube {
+  background-color: red;
+  font-family: Youtube Sans;
+  padding: 15px 5%;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=default.css.map */
