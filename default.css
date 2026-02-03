@@ -27,8 +27,8 @@
   src: url(youtube-sans-bold.ttf);
 }
 @font-face {
-  font-family: Ft Vortex;
-  src: url(FtVortex-G3ZDy.otf);
+  font-family: Hare;
+  src: url(Hare-PKeLr.otf);
 }
 nav {
   border: black 5px solid;
@@ -89,23 +89,20 @@ body p {
   min-width: 32px;
   max-width: 128px;
   display: block;
-  margin: auto;
+  margin: 10px auto;
 }
 
-.button1 {
-  background-color: #000055;
-  font-family: Ft Vortex;
-}
-.button1 img {
-  filter: invert(100);
+#asc2026 {
+  background-color: #804795;
+  font-family: Hare;
 }
 
-.button2 {
+#afc2025 {
   background-color: #a3855b;
   font-family: Old London;
 }
 
-.button3 {
+#afc2024 {
   background-color: #7a450f;
   font-family: Dinopia;
 }
