@@ -62,7 +62,7 @@ nav {
 html {
     background: $light-green;
     background-image: linear-gradient(to bottom, $light-green, $dark-green); 
-    height:100%;
+    height:auto;
 }
 body {
     h1 {
@@ -77,9 +77,15 @@ body {
         text-align: center;
         font-size: 32px;
     }
+    h2 {
+        color:$black;
+        font-family:Mojipon;
+        text-align: center;
+        font-size: 48px;
+    }
 }
 
-#container {
+.container {
     display:flex;
     justify-content:space-evenly;
     width:100%;
@@ -116,6 +122,12 @@ body {
 #afc2024 {
     background-color:#7a450f;
     font-family:Dinopia;
+}
+
+#acronymify {
+    background-color:#ffffff;
+    color: $black;
+    font-family:VCR OSD Mono;
 }
 
 #discord {
