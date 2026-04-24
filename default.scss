@@ -47,6 +47,11 @@ $dark-green: #5B7553;
     src: url(DroidSans.ttf);
 }
 
+@font-face {
+    font-family: Apex Sans;
+    src: url(ApexSansBook.woff);
+}
+
 nav {
     border:black 5px solid;
     background-color:white;
@@ -141,6 +146,7 @@ h2 {
   background-color: #5865F2;
   h2 {
     font-family: Ginto Nord;
+    font-size: 2.5rem;
   }
   padding: 15px 5%;
 }
@@ -157,6 +163,14 @@ h2 {
   background-color: red;
   h2 {
     font-family: Youtube Sans;
+  }
+  padding: 15px 5%;
+}
+
+#github {
+  background-color: black;
+  h2 {
+    font-family: Apex Sans;
   }
   padding: 15px 5%;
 }
