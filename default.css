@@ -58,21 +58,8 @@ nav ul li:last-child {
 html {
   background: #C3E8BD;
   background-image: linear-gradient(to bottom, #C3E8BD, #5B7553);
+  background-attachment: fixed;
   height: auto;
-}
-
-h1 {
-  color: #191923;
-  font-family: Mojipon;
-  text-align: center;
-  font-size: 5vw;
-}
-
-p#intro {
-  color: #191923;
-  font-family: VCR OSD Mono;
-  text-align: center;
-  font-size: 2.5vw;
 }
 
 h2 {
@@ -80,6 +67,47 @@ h2 {
   font-family: Mojipon;
   text-align: center;
   font-size: 48px;
+}
+
+.textbox {
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 80%;
+  margin: 20px auto;
+}
+.textbox h1 {
+  color: #191923;
+  font-family: Mojipon;
+  text-align: center;
+  font-size: 5vw;
+}
+.textbox h2 {
+  margin: 0;
+}
+.textbox p {
+  font-family: "Droid Sans";
+  font-size: 1.25rem;
+  margin: 10px 15px;
+}
+.textbox p#intro-description {
+  color: #191923;
+  font-family: VCR OSD Mono;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+#about-me {
+  padding: 20px;
+  display: flex;
+}
+
+img#profile-pic {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
 }
 
 .container {
@@ -183,11 +211,15 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-  h1 {
-    font-size: 10vw;
+  .textbox {
+    max-width: 100%;
+    margin: 10px auto;
   }
-  p#intro {
-    font-size: 7vw;
+  .textbox h1 {
+    font-size: 8vw;
+  }
+  .textbox p#intro-description {
+    font-size: 4vw;
   }
   .container {
     flex-direction: column;

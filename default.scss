@@ -70,28 +70,60 @@ nav {
         }
     }
 }
+
 html {
     background: $light-green;
-    background-image: linear-gradient(to bottom, $light-green, $dark-green); 
+    background-image: linear-gradient(to bottom, $light-green, $dark-green);
+    background-attachment: fixed;
     height:auto;
-}
-h1 {
-    color:$black;
-    font-family: Mojipon;
-    text-align: center;
-    font-size: 5vw;
-}
-p#intro{
-    color:$black;
-    font-family:VCR OSD Mono;
-    text-align: center;
-    font-size: 2.5vw;
 }
 h2 {
     color:$black;
     font-family:Mojipon;
     text-align: center;
     font-size: 48px;
+}
+
+.textbox {
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    width:80%;
+    margin: 20px auto;
+    h1 {
+        color:$black;
+        font-family: Mojipon;
+        text-align: center;
+        font-size: 5vw;
+    }
+    h2 {
+        margin:0;
+    }
+    p {
+        font-family: "Droid Sans";
+        font-size:1.25rem;
+        margin:10px 15px;
+        &#intro-description{
+            color:$black;
+            font-family:VCR OSD Mono;
+            text-align: center;
+            font-size: 2.5vw;
+        }
+    }
+    
+}
+
+#about-me {
+    padding:20px;
+    display:flex;
+}
+
+img#profile-pic {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    display:block;
+    margin: 20px auto;
 }
 
 .container {
@@ -183,12 +215,17 @@ h2 {
 
 
 @media screen and (max-width: 768px) {
-    h1 {
-        font-size: 10vw;
+    .textbox {
+        max-width:100%;
+        margin: 10px auto;
+        h1 {
+            font-size: 8vw;
+        }
+        p#intro-description{
+            font-size: 4vw;
+        }
     }
-    p#intro{
-        font-size: 7vw;
-    }
+
     .container {
         flex-direction:column;
     }
