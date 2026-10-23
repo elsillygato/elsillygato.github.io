@@ -155,6 +155,13 @@ img#profile-pic {
         margin:10px auto;
     }
 }
+#ascunknown {
+    background-color: #000000;
+    font-family:Mojipon;
+    img {
+        filter: invert(1);
+    }
+}
 #asc2026 {
     background-color: #804795;
     font-family:Hare;
